@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="result_view">#b0000000</color> <!-- result view background color -->
+    <color name="result_title_text">#00ccff</color>
+    <color name="result_content">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="loading_bar">#9ACD32</color>
+</resources>

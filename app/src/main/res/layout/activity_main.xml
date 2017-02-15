@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#03a9f4"
+    tools:context="com.wecombo.ml.irecog.MainActivity">
+
+    <TextView
+        android:text="@string/app_name_chs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:id="@+id/AppDisplayNameChs"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:text="@string/app_name_full"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:id="@+id/AppDisplayNameFull"
+        android:layout_below="@+id/AppDisplayNameChs"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="字符串实时查找"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:id="@+id/RealTimeRecog"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_flat_warning"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/mdi_camera_party_mode"/>
+
+    <Button
+        android:text="身份证信息提取"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:id="@+id/ExtractIdCard"
+        android:background="@drawable/button_flat_success"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_below="@+id/RealTimeRecog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/mdi_account_card_details"/>
+
+
+
+    <TextView
+        android:text="@string/app_dev_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:id="@+id/DevGroup"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

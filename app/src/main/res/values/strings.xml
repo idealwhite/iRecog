@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">iRecog</string>
+    <string name="app_name_full">iRecognize</string>
+    <string name="app_name_chs">图片文字识别</string>
+
+    <string name="app_dev_group">MachineLearning:张立赛 刘炫鹏</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
